@@ -12,9 +12,12 @@
   "devDependencies": {
     "react-scripts": "1.0.10"
   },
+  "homepage": "https://zhdmitry.github.io/swiss-blog",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
