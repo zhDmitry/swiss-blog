@@ -1,0 +1,62 @@
+.blog-item .image {
+  background-position: center;
+  background-size: cover;
+}
+.blog-item .card-content {
+  height: 200px;
+}
+.blog-item.card {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  box-shadow: none;
+  background: #f7f8fa;
+}
+.blog-item .image {
+  height: 200px;
+}
+.blog-item .media {
+  display: inline;
+}
+.blog-item .date i,
+.blog-item .views i {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.blog-item .content {
+  font-family: sans-serif;
+  color: #828282;
+  max-height: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.blog-item .views,
+.blog-item .date {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #9fa3a6;
+  font-family: 'Montserrat';
+}
+.blog-item .views {
+  float: right;
+}
+
+.blog-item .is-bold {
+  font-weight: 900;
+}
+
+.blog-item.card.black{
+    background:  #292929;
+}
+.blog-item.card.black .title{
+    color: white;
+}
+.blog-item.card.orange *{
+    color: white;
+}
+
+.blog-item.card.orange{
+    background: #ffc80a;
+}
