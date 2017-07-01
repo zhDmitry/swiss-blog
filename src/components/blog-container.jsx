@@ -202,23 +202,6 @@ const elements = [
     view: 23,
     color: "black"
   },
-    {
-    image: "https://source.unsplash.com/random/800x600",
-    content: (
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-        iaculis mauris.
-        <a>@bulmaio</a>.
-        <a>#css</a>
-        <a>#responsive</a>
-        <br />
-      </p>
-    ),
-    title: "The number of photons",
-    createdAt: "1 Jan 2016",
-    view: 23,
-    big:true
-  }
 ];
 
 const BlogContainer = () => {

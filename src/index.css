@@ -6,7 +6,6 @@ body {
   font-family: 'Arvo', sans-serif;
 }
 
-
 .nav.site-header  a.nav-item {
   color: #9fa3a6;
   font-family: 'Montserrat', sans-serif;
@@ -15,7 +14,7 @@ body {
 .nav.site-header {
   background: white;
 }
-.blog-title p{
+.blog-title p {
   font-weight: 900;
 }
 
@@ -71,10 +70,12 @@ input.input.is-hidden-tablet.mobile-input:focus {
   width: 100%;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 640px) {
   .blogs .column.big {
     flex: 0 1 310px;
   }
+}
+@media all and (max-width: 768px) {
   p.search {
     width: 100%;
   }
@@ -85,8 +86,6 @@ input.input.is-hidden-tablet.mobile-input:focus {
     width: 100%;
   }
 }
-
-
 
 .flex-cols {
   display: flex;
