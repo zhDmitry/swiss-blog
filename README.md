@@ -3,3 +3,6 @@
 npm start - start dev server
 
 npm run build -build static assets
+
+mobile preview 
+![](https://github.com/zhDmitry/swiss-blog/blob/master/moblie-preview.png)
