@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import Header from "./components/header.jsx";
 import Blogs from "./components/blog-container.jsx";
 import Footer from "./components/footer.jsx";
